@@ -1,0 +1,10 @@
+!python train.py \
+    --data /content/datasets/thermal_split/thermal_dataset.yaml \
+    --weights yolov5n.pt \
+    --hyp /content/thermal_hyp.yaml \
+    --img 640 \
+    --batch 16 \
+    --epochs 60 \
+    --project /content/drive/MyDrive/thermal_yolo \
+    --name thermal_human_detection \
+    --cache ram
